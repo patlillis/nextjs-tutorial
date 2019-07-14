@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "export": "next export"
   },
   "repository": {
     "type": "git",
@@ -19,10 +18,9 @@
   },
   "homepage": "https://github.com/patlillis/nextjs-tutorial",
   "dependencies": {
-    "isomorphic-unfetch": "^3.0.0",
-    "next": "^9.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-markdown": "^4.1.0"
+    "express": "^4.16.4",
+    "next": "^9.0.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   }
 }

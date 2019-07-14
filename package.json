@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patlillis/nextjs-tutorial.git"
+  },
+  "author": "Pat Lillis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patlillis/nextjs-tutorial/issues"
+  },
+  "homepage": "https://github.com/patlillis/nextjs-tutorial",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
